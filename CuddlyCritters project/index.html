@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cuddly Critters</title>
+	
+	<link rel="stylesheet" href="library/bootstrap/css/bootstrap.css">
+	<link href="library/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+   
+
+   
+</head>
+<body>
+ 
+    <div class="pagination-centered" id= "Text">
+       <img src="img/header1.jpg">
+    </div>
+
+  <div class="navbar navbar-static-top navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+              
+                <ul class="nav navbar-form">
+                    
+                    <li class="active"><a href="#about">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li class="dropdown">
+                      <a id="drop1" data-toggle="dropdown" href="#">Animals</a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                          <li>Cats</li>
+                          <li>Dogs</li>
+                          <li>Strange</li>
+                          <li>Dangerous</li>
+                        </ul>
+                    </li>
+                    <li><a href="#products">Pet Products</a></li>
+                    <li><a href="contactus/contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+ 	<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+		<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    
+    <div class="active item">
+      <img src = "img/duck.jpg" alt>
+        <div class="carousel-caption">
+          <h4>DrosoDuck</h4>
+            <p>"Our famous genetically engineered animal. His name is a tribute to the famous model used by geneticsts, <i>Drosophila</i>, a genus of small flies, used for decades to understand genetics and development!"</p>
+        </div>
+    </div>
+
+    <div class="item">
+      <img src = "img/kits.jpg" alt>
+        <div class="carousel-caption">
+          <h4>Animals for sale</h4>
+            <p>"We have a wide range of animals for sale, from cats and dogs to lizards. Check out our animal section for our current availability."</p>
+        </div>
+    </div>
+    <div class="item">
+      <img src = "img/products.jpg" alt>
+        <div class="carousel-caption">
+          <h4>Animal Supplies</h4>
+            <p>"Browse our online store, where you can find any product to suit your pets needs!"</p>
+        </div>
+    </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+</div>
+ </div>
+</div>
+<div class="container-fluid" id="footer">
+    <div class="row-fluid">
+        <div class="span12">
+          <div class="footer">
+            <p>Location: 1970 ReedWood Rd</p>
+            <p>Telephone Number: 605-888-8888</p>
+
+          </div>
+        </div>
+     </div>
+</div>        
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+  <script src="library/bootstrap/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 4000
+    });
+  });
+</script>
+
+</body>
+</html>
